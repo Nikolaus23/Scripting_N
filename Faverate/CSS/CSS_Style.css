@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium&family=Titillium+Web&display=swap');
+
+
+body{
+    background-color: #8fa3a5;
+
+    font-family: 'Titillium Web', sans-serif;
+
+    color: white;
+
+    margin: 0;
+}
+
+h1,h3{
+    font-family: 'Oxanium', cursive;
+}
+
+
+
+
+/**********header**********/
+
+header{
+    background-color: rgb(43, 19, 59);
+
+    text-align: center;
+
+    padding: 30px;
+}
+
+
+/**********Navigation bar**********/
+
+nav ul{
+list-style-type: none;
+
+margin: 0;
+
+padding: 20px;
+
+overflow: hidden;
+
+background-color: darkslateblue;
+}
+
+nav li{
+    float: left;
+}
+
+nav a,nav a:visited{
+    display: block;
+
+    padding: 8px;
+
+    text-decoration: none;
+
+    color: white;
+}
+
+nav a:hover{
+    background-color: rgb(95, 85, 163);
+}
+
+.sticky{
+    position:-webkit-sticky;
+
+    position:sticky;
+    top: 0;
+}
+
+/**********section**********/
+
+section{
+    background-color: indigo;
+
+    width: 75vw;
+
+    margin: 0 auto;
+
+    overflow: hidden;
+
+    padding: 10px;
+}
+
+.alternate{
+    background-color: rgb(56, 51, 64);
+}
+
+section img{
+    float: left;
+    margin: 20px;
+}
+
+/***********footer***********/
+
+footer{
+    background-color: rgb(19, 14, 24);
+
+    text-align: center;
+
+    padding: 25px;
+   /*text seems a bit off*/ 
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+a{
+    color: coral;
+}
+
+a:visited{
+    color: darkgoldenrod;
+}
+
+a:hover{
+    color: chocolate;
+}
+
+a:active{
+    color: tomato;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
