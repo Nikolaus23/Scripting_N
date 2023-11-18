@@ -1,0 +1,23 @@
+header{
+    background-image: url(../images/Pets.jpg);
+
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+#services_header{
+    background-image: url(../images/services_header.jpg);
+}
+
+.bg-purple{
+    background-color: darkmagenta;
+}
+
+.nav-link{
+    color: rgb(223, 192, 226) !important;
+}
+
+footer a{
+    color: palevioletred;
+}

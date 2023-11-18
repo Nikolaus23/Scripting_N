@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Libre+Baskerville&display=swap');
+body{
+    background-color: #1B1F3A;
+}
+/*****************Fonts**********************************/
+
+.font-lato{
+    font-family: 'Lato', sans-serif;
+}
+
+.font-Libre{
+    font-family: 'Libre Baskerville', serif
+}
+
+.font-dancing{
+    font-family: 'Dancing Script', cursive;
+
+    color: rgb(201, 72, 63)
+}
+
+/**************nav**************/
+
+.nav-link{
+    color: #FF7844 !important;
+    
+}
+
+.bg-blueOl{
+    background-color: #53354A !important;
+}
+
+nav li a:hover{
+    display: block !important;
+    
+    text-decoration:none !important;
+    color: rgb(255, 72, 0) !important;
+}
+
+
+/************************header*****************************/
+header{
+    background-image: url(../images/Biggar_old_Trian.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.text-colour-bg{
+    background-color: #a6494291;
+    background-position: center;
+}
+
+
+
+
+h1{
+    font-family: 'Lato', sans-serif;
+    
+}
+/******************Sections***************/
+/* h2{
+    padding-right: 0px; padding-left: 0px;
+
+    background-color: blueviolet;
+} */
+
+.text-colour-orange{
+    color: #FF7844;
+}
+
+
+
+.bg-light-purple{
+    background-color: #53354A;
+}
+
+/* .bg-purple{
+    background-color: blueviolet;
+    
+} */
+
+.bg-rounded{
+    border-radius: 25px;
+}
+
+
+/***************footer*****************/
+
+footer{
+    background-color: #1e1f23;
+}
+
+
+footer a,footer a:visited{
+    color: #A64942;
+}
+
+footer a:hover{
+    color: #d85349;
+}
+/*******************************************image*******************/
+
+.img-botom{
+    padding-bottom: 10px;
+}
+
+/* img{
+    
+} */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
