@@ -1,0 +1,48 @@
+/*background of Header*/
+Header{
+    background-image: url(../image/writing-on-paper.jpg);
+    /* background-color: #969450 ; */
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+}
+
+h1{
+    background-color: #744dab60;
+    /* height: 7vh; */
+}
+
+
+/*Background colour*/
+body{
+    background-color: #3D30A2;
+}
+
+.a-section{
+    background-color: #8137c6;
+    margin: auto;
+    color: white;
+}
+
+h2{
+    background-color: #4b2d72;
+    /* height: 6vh; */
+}
+
+footer{
+    background-color: #261833;
+}
+
+/*photo pad
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nik's Mad Libs</title>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+        <!-- My CSS -->
+        <link rel="stylesheet" href="css/my_style.css">
+    
+        <!-- jQuery library -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    
+        <!-- Popper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script> 
+</head>
+<body>
+    <!-------------------------------Header------------------------------------->
+    <header>
+
+        <div class="container py-4">
+            <div class="row py-5">
+                <div class="col-md-6 text-center text-white">
+                    <h1 class="py-2">Lets make a story!</h1>
+                </div><!--end col-->
+            </div><!--end row-->
+        </div><!--end container-->
+
+    </header>
+<form action="javascript:write();">
+    <!-------------------------------------------Section time choice--------------------------------------->
+    <section>
+        <h2 class="py-2 text-center text-white">Hold on what is the time?</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 ">
+              
+                </div>
+            </div><!--end row 1-->
+            <div class="a-section row">
+                <div class="col-sm-12 text-center form-group py-3 ">
+                    
+                    
+                <!-----------------------------------------start of Radio list-------------------------------------->
+                 <!--<form action="javascript:write();s">-->
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio"
+                            class="form-check-input" name="time"
+                            value="midnight">Midnight
+                        </label>
+                    </div><!--end form-check 1-->
+
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio"
+                            class="form-check-input" name="time"
+                            value="morning">Morning
+                        </label>
+                    </div><!--end form-check 1-->
+
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio"
+                            class="form-check-input" name="time"
+                            value="noon">Noon
+                        </label>
+                    </div><!--end form-check 1-->
+
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio"
+                            class="form-check-input" name="time"
+                            value="afternoon">Afternoon
+                        </label>
+                    
+
+                    </div><!--end form-check 1-->
+                <!-------------------------------------end of Radio list--------------------------------->
+                 <!--</form>-->
+                </div><!--end col-->
+            </div><!--end row 1--> 
+
+
+        </div><!--end container-->
+    </section>
+    <!-----------------------------------------Section Writen Mad Libs------------------------------------>
+
+    <section>
+        <div class="container">
+            <div class="py-3 row">
+                <div class=" text-center col-sm-12 text-white">
+                    <h2 class="py-2">Mad Libs Questions</h2>
+                </div><!--end col-->
+            </div><!--end row 1-->
+            <div class="a-section row">
+                <div class=" col-sm-4">
+
+                    <!----------------------Start Text Promps row 1------------------------------------------>
+                    <div class="form-group"><!--start From-group 1-->
+                        <label for="W3-noun-place">Noun Place:</label>
+                        <input class="form-control" type="text"
+                        id="W3-noun-place">
+                    </div><!--end Frorm-group 1-->
+
+                    <div class="form-group"><!--start From-group 2-->
+                        <label for="W2-name">A Person's Name:</label>
+                        <input class="form-control" type="text"
+                        id="W2-name">
+                    </div><!--end Frorm-group 2-->
+
+                    <div class="form-group"><!--start From-group 3-->
+                        <label for="W4-house-object">Everyday Household Object:</label>
+                        <input class="form-control" type="text"
+                        id="W4-house-object">
+                    </div><!--end Frorm-group 3-->
+
+                    <div class="form-group"><!--start From-group 4-->
+                        <label for="W10-a-house-object">Anouther Household Object:</label>
+                        <input class="form-control" type="text"
+                        id="W10-a-house-object">
+                    </div><!--end Frorm-group 4-->
+                    <!----------------------End Text Promps row 1--------------------------------------------->
+                </div><!--end col 1-->
+
+                <div class="col-sm-4">
+
+                    <!----------------------Start Text Promps row 2------------------------------------------>
+                    <div class="form-group"><!--start From-group 1-->
+                        <label for="W1-animal">A Animal:</label>
+                        <input class="form-control" type="text"
+                        id="W1-animal">
+                    </div><!--end Frorm-group 1-->
+
+                    <div class="form-group"><!--start From-group 2-->
+                        <label for="W9-candy">Candy:</label>
+                        <input class="form-control" type="text"
+                        id="W9-candy">
+                    </div><!--end Frorm-group 2-->
+
+                    <div class="form-group"><!--start From-group 3-->
+                        <label for="W5-hat">A Type of Hat:</label>
+                        <input class="form-control" type="text"
+                        id="W5-hat">
+                    </div><!--end Frorm-group 3-->
+
+                    <div class="form-group"><!--start From-group 4-->
+                        <label for="W7-a-noun-place">Anouther Noun Place:</label>
+                        <input class="form-control" type="text"
+                        id="W7-a-noun-place">
+                    </div><!--end Frorm-group 4-->
+                    <!----------------------End Text Promps row 2--------------------------------------------->
+                </div><!--end col 2-->
+
+                <div class="col-sm-4">
+
+                    <!----------------------Start Text Promps row 3------------------------------------------>
+                    <div class="form-group"><!--start From-group 1-->
+                        <label for="W6-year">A Year:</label>
+                        <input class="form-control" type="text"
+                        id="W6-year">
+                    </div><!--end Frorm-group 1-->
+
+                    <div class="form-group"><!--start From-group 2-->
+                        <label for="W8-instrument">A Musical Instrument:</label>
+                        <input class="form-control" type="text"
+                        id="W8-instrument">
+                    </div><!--end Frorm-group 2-->
+                    <img class="img-fluid py-2" src="image/pen_paper2.jpg" alt="Writings on page with hands holding a pen">
+                    <!----------------------End Text Promps row 3--------------------------------------------->
+                </div><!--end col 3-->
+
+                <div class="col-sm-3">
+                   
+                </div><!--end col 4-->
+            </div><!--end row 2-->
+        </div><!--end of container-->
+    </section>
+<!------------------------------------------------------Butten go---------------------------------------->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="py-3 col-sm-12 text-center text-white">
+                    <h2 class="py-2">Done? Press the Button.</h2>
+                    <button type="submit" class="btn btn-warning btn-lg">Submit</button>
+                </div><!--end col-->
+            </div><!--end row 1-->
+
+        </div><!--end container-->
+    </section>
+</form>
+
+<!--------------------------------------------------------------------Story output here-------------------------------->
+<div id="output">
+
+
+</div>
+
+<!----------------------------------------------------------Footer----------------------------------------------------->
+
+    <footer>
+        <div class="container text-white text-center py-5">
+            <div class="row">
+                <div class="col-sm-4 text-md-left">
+                    <p>Made and Writen by Nikolaus</p>
+
+                    <p>Header Image from: <a href="https://www.pexels.com/photo/person-holding-white-ceramci-be-happy-painted-mug-851213/" target="_blank">Lisa Fotios</a></p>
+
+                    <p>Writings Photo from: <a href="https://www.pexels.com/photo/grayscale-photography-of-person-holding-pen-783737/" target="_blank">Todoran Bogdan</a></p>
+
+                    <p>Midnight Photo from: <a href="https://www.pexels.com/photo/traffic-on-city-street-at-night-4726874/" target="_blank">Erik Mclean</a></p>
+
+
+                </div>
+                <div class="col-sm-4">
+                    
+                </div>
+                <div class="col-sm-4 text-md-right">
+                    <p>Sunrise Photo from: <a href="https://www.pexels.com/photo/silhouette-photo-of-mountains-1335115/" target="_blank">Konevi</a></p>
+
+                    <p>Midday Photo from: <a href="https://www.pexels.com/photo/grass-field-under-cloudy-sky-125457/" target="_blank">Mabel Amber</a></p>
+                    
+                    <p>Afternoon Photo from: <a href="https://www.pexels.com/photo/silhouette-of-mountain-during-golden-hour-2386144/" target="_blank">Anderson  Martins</a></p>
+
+                    <p>Base colour palette from: <a href="https://colorhunt.co/palette/3d30a2b15effffa33cfffb73" target="_blank">Color Hunt</a></p>
+                </div>
+            </div><!--end row-->
+        </div><!--end container-->
+    </footer>
+
+
+    <script src="js/madlib_work.js"></script>
+</body>
+</html>
