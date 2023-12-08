@@ -1,3 +1,6 @@
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Inter+Tight&display=swap');
+
 /*background of Header*/
 Header{
     background-image: url(../image/writing-on-paper.jpg);
@@ -10,6 +13,8 @@ Header{
 h1{
     background-color: #744dab60;
     /* height: 7vh; */
+    font-family: 'Comfortaa', sans-serif;
+    /* font-family: 'Inter Tight', sans-serif; */
 }
 
 
@@ -27,13 +32,17 @@ body{
 h2{
     background-color: #4b2d72;
     /* height: 6vh; */
+    font-family: 'Comfortaa', sans-serif;
 }
 
 footer{
     background-color: #261833;
 }
 
-/*photo pad
+/*fonts per page*/
+.font-n{
+    font-family: 'Inter Tight', sans-serif;
+}
 
 
 
